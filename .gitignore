@@ -1,0 +1,17 @@
+.DS_Store
+Thumbs.db
+
+.idea/
+.vscode/
+*.swp
+
+npm-debug.log
+yarn-error.log
+
+node_modules/
+
+.env
+docker-compose.override.yml
+
+*.tmp
+*.bak
