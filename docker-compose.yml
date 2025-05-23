@@ -1,0 +1,2 @@
+volumes:
+  - ~/Clear-news:/usr/share/nginx/html
