@@ -1,2 +1,9 @@
-volumes:
-  - ~/Clear-news:/usr/share/nginx/html
+version: '3.8'  
+services:  
+  nginx:  
+    image: nginx:alpine  
+    volumes:  
+      - ~/Clear-news:/usr/share/nginx/html
+    ports:  
+      - "80:80"  
+    restart: unless-stopped  
